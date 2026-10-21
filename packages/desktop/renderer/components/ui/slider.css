@@ -1,0 +1,59 @@
+.slider-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem 1rem;
+  }
+  
+  .slider-label {
+    margin-right: 5px;
+    display: none;
+  }
+  .slider-percentage {
+    display: none;
+  }
+  .slider-icon {
+    margin-right: -8px;
+    margin-top: -20px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: #005e31; /* SVG Color (vol icon) */
+  }
+
+  .slider {
+    width: 150px;
+    height: 8px;
+    border-radius: 4px;
+    accent-color: #008746;  /* fill color for slider bar */ 
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  /* sliders are silly in Chrome - probably should just find a nice cross-browser CSS  slider/input[type=range] impl. somewhere and use that */
+  .slider::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #444444; 
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #444444; 
+    cursor: pointer;
+  }
+  
+  .slider::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #444444; 
+    cursor: pointer;
+  }
+  

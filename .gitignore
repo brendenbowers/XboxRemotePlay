@@ -1,0 +1,42 @@
+# Whitelist: track only Console Stream's own code and the config needed to install dependencies and build.
+# Everything else in this checkout (upstream Greenlight packages, docs, CI) is ignored.
+/*
+!/.gitignore
+!/CONSOLE-STREAM.md
+!/LICENSE
+
+!/packages/
+/packages/*
+!/packages/desktop/
+!/packages/discord-proxy/
+
+/packages/desktop/*
+!/packages/desktop/.gitignore
+!/packages/desktop/package.json
+!/packages/desktop/package-lock.json
+!/packages/desktop/tsconfig.json
+!/packages/desktop/nextron.config.js
+!/packages/desktop/electron-builder.yml
+!/packages/desktop/eslint.config.mjs
+!/packages/desktop/playwright.config.ts
+!/packages/desktop/main/
+!/packages/desktop/renderer/
+!/packages/desktop/shared/
+!/packages/desktop/tests/
+!/packages/desktop/resources/
+
+/packages/discord-proxy/*
+!/packages/discord-proxy/package.json
+!/packages/discord-proxy/package-lock.json
+!/packages/discord-proxy/src/
+!/packages/discord-proxy/tests/
+
+# Generated or local-only, wherever they appear.
+node_modules/
+dist/
+.next/
+next-env.d.ts
+.cache/
+ConsoleStreamData*/
+*.log
+.DS_Store

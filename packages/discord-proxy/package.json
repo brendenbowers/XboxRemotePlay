@@ -1,0 +1,15 @@
+{
+  "name": "@console-stream/discord-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:electron": "node tests/encoded-tap.electron.cjs"
+  },
+  "dependencies": {
+    "@lng2004/discord.js-selfbot-v13": "3.7.2",
+    "@lng2004/node-datachannel": "0.33.2-20260921",
+    "@snazzah/davey": "0.1.12"
+  }
+}

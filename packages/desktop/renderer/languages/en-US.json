@@ -1,0 +1,286 @@
+{
+  "translation": {
+    "languageName": "English",
+    "authorOfLocalization": "English Localization by unknownskl",
+
+    "header": {
+      "myConsoles": "My Consoles",
+      "viewConsoles": "View consoles",
+      "xCloudLibrary": "xCloud Library",
+      "browseXCloudLibrary": "Browse xCloud library",
+      "settings": "Settings",
+      "changeSettings": "Change application settings",
+      "viewProfile": "View profile",
+      "quitQuestion": "Are you sure you want to quit?",
+      "home": "Home"
+    },
+
+    "auth": {
+      "logoutQuestion": "Are you sure you want to logout?",
+      "clearDataBtn": "Clear Data",
+      "clearDataQuestion": "This will remove all application data, which is sometimes helpful when you are stuck in a login loop. Do you want to continue?",
+      "gamerscore": "Gamerscore",
+      "loggingIn": "Logging in...",
+      "loginBtn": "Login",
+      "logoutBtn": "Logout",
+      "loginWithXbox": "Login with Xbox",
+      "pleaseAuthenticate": "Please authenticate below to access xCloud and xHome Streaming",
+      "windowTitle": "Authentication"
+    },
+
+    "settings": {
+      "sidebar": {
+        "about": "About",
+        "streaming": "Streaming",
+        "input": "Input",
+        "videoAudio": "Video & Audio",
+        "webUI": "Web UI",
+        "debug": "Debug"
+      },
+
+      "about": {
+        "logoutQuestion": "Are you sure you want to logout?",
+        "title": "Settings",
+        "gamerscore": "Gamerscore",
+        "selectorSelectLanguage": "Select language",
+        "logout": "Logout",
+        "version": "Version",
+        "website": "Website",
+        "websiteLinkTitle": "Open link in external browser"
+      },
+
+      "input": {
+        "settingsInputPageTitle": "Settings: Input",
+        "dPadUp": "DPad Up",
+        "dPadDown": "DPad Down",
+        "dPadLeft": "DPad Left",
+        "dPadRight": "DPad Right",
+        "leftShoulder": "Left Shoulder",
+        "rightShoulder": "Right Shoulder",
+        "leftTrigger": "Left Trigger",
+        "rightTrigger": "Right Trigger",
+        "leftThumb": "Left Thumbstick",
+        "rightThumb": "Right Thumbstick",
+        "view": "View",
+        "menu": "Menu",
+        "nexus": "Nexus",
+        "none": "None",
+        "enabledLabel": "Enabled",
+        "disabledLabel": "Disabled",
+        "axesLabel": "axes",
+        "buttonsLabel": "buttons",
+        "rumbleLabel": "rumble",
+        "notSupportedLabel": "Not supported",
+        "title": "Input",
+        "enableVibration": "Enable vibration",
+        "enableTouch": "Enable Touch input",
+        "enableMouseKeyboard": "Enable Mouse & Keyboard",
+        "legacyWarning": "Using the Mouse & Keyboard driver together with the Gamepad keyboard mappings will cause conflicts",
+        "enableLegacy": "Enable Keyboard to Gamepad",
+        "enableLegacyDescription": "(Disabling this feature will disable the keyboard to gamepad mapping and only allows controls from the gamepad.)",
+        "controllerDetectedTitle": "Controllers detected",
+        "controllerDetectedDescription": "If you have a controller connected but it is not showing up, try to press a button on the controller to detect it.",
+        "noControllerDetected": "No controller detected",
+        "keyboardMappingsTitle": "Keyboard mappings"
+      },
+
+      "streaming": {
+        "pageTitle": "Settings: Streaming",
+        "title": "Streaming Settings",
+        "description": "The console chooses the delivered quality. Leave bitrate Unlimited / Off to avoid a client bandwidth cap.",
+        "xCloudStreamingBitrateLabel": "xCloud Streaming Bitrate",
+        "xHomeStreamingBitrateLabel": "xHome Streaming Bitrate",
+        "unlimitedLabel": "Unlimited / Off",
+        "mbpsLabel": "mbps",
+        "setH264ProfileLabel": "Set H.264 Profile",
+        "setH264ProfileValueAuto": "Auto-Negotiate",
+        "setH264ProfileValueHigh": "High",
+        "setH264ProfileValueMedium": "Medium",
+        "setH264ProfileValueLow": "Low",
+        "forceRegionTitle": "Force region",
+        "setRegionLabel": "Set region:",
+        "setRegionValueDisabled": "Disabled",
+        "setRegionValueAustralia": "Australia",
+        "setRegionValueBrazil": "Brazil",
+        "setRegionValueEurope": "Europe",
+        "setRegionValueJapan": "Japan",
+        "setRegionValueKorea": "Korea",
+        "setRegionValueUS": "United States",
+        "preferredGameLanguageLabel": "Preferred game language:",
+        "preferredGameLanguageValueArabic": "Arabic (Saudi Arabia)",
+        "preferredGameLanguageValueCzech": "Czech",
+        "preferredGameLanguageValueDanish": "Danish",
+        "preferredGameLanguageValueGerman": "German",
+        "preferredGameLanguageValueGreek": "Greek",
+        "preferredGameLanguageValueEnglishUK": "English (United Kingdom)",
+        "preferredGameLanguageValueEnglishUS": "English (United States)",
+        "preferredGameLanguageValueSpanish": "Spanish (Spain)",
+        "preferredGameLanguageValueSpanishMX": "Spanish (Mexico)",
+        "preferredGameLanguageValueFinnish": "Finnish",
+        "preferredGameLanguageValueFrench": "French",
+        "preferredGameLanguageValueHebrew": "Hebrew",
+        "preferredGameLanguageValueHungarian": "Hungarian",
+        "preferredGameLanguageValueItalian": "Italian",
+        "preferredGameLanguageValueJapanese": "Japanese",
+        "preferredGameLanguageValueKorean": "Korean",
+        "preferredGameLanguageValueNorwegian": "Norwegian",
+        "preferredGameLanguageValueDutch": "Dutch",
+        "preferredGameLanguageValuePolish": "Polish",
+        "preferredGameLanguageValuePortugueseBR": "Portuguese (Brazil)",
+        "preferredGameLanguageValuePortuguese": "Portuguese (Portugal)",
+        "preferredGameLanguageValueRussian": "Russian",
+        "preferredGameLanguageValueSlovak": "Slovak",
+        "preferredGameLanguageValueSwedish": "Swedish",
+        "preferredGameLanguageValueTurkish": "Turkish",
+        "preferredGameLanguageValueChineseCN": "Chinese (Simplified)",
+        "preferredGameLanguageValueChineseTW": "Chinese (Traditional)"
+      },
+
+      "videoAudio": {
+        "pageTitle": "Settings: Video & Audio",
+        "title": "Video",
+        "disableVideoLabel": "Disable video",
+        "disabledLabel": "Disabled",
+        "enabledLabel": "Enabled",
+        "aspectSizeLabel": "Video aspect size",
+        "aspectSizeValueDefault": "Default",
+        "aspectSizeValueStretch": "Stretch",
+        "aspectSizeValueZoom": "Zoom",
+        "forceLowResLabel": "Force low resolution video",
+        "forceLowResDescription": "(This option is useful on the Steam Deck and enables the application to render in a low resolution so FSR can be enabled.)",
+        "audioTitle": "Audio",
+        "disableAudioLabel": "Disable audio"
+      },
+
+      "webUI": {
+        "pageTitle": "Settings: Web UI",
+        "title": "WebUI",
+        "enableWebUILabel": "Enable WebUI",
+        "stopWebUIBtn": "Stop Web UI",
+        "startWebUIBtn": "Start Web UI",
+        "openWebUIBtn": "Open Web UI",
+        "autostartLabel": "Start WebUI on application start",
+        "autostartEnabled": "Enabled",
+        "autostartDisabled": "Disabled",
+        "portLabel": "Port",
+        "portPlaceholder": "example: 9003"
+      },
+
+      "debug": {
+        "pageTitle": "Settings: Debug"
+      }
+    },
+
+    "page": {
+      "xCloud": {
+        "pageTitle": "xCloud Library",
+        "breadcrumb": "xCloud",
+        "recentGames": "Recent Games",
+        "recentlyAdded": "Recently added",
+        "viewLibraryBtn": "View Library"
+      },
+
+      "xCloudLibrary": {
+        "pageTitle": "xCloud Library",
+        "breadcrumb1": "xCloud",
+        "breadcrumb2": "Library",
+        "title": "Library",
+        "searchPlaceholder": "Search",
+        "previousPageBtn": "Previous Page",
+        "nextPageBtn": "Next Page",
+        "viewGamePageIcon": "View game page"
+      },
+
+      "myConsoles": {
+        "pageTitle": "My Consoles",
+        "poweredOn": "Powered on",
+        "standby": "Standby",
+        "warningLabel": "Warning",
+        "managementWarning": "Remote management not enabled",
+        "streamingWarning": "Console streaming not enabled",
+        "startStreamBtn": "Start Stream",
+        "noConsoles": "No consoles found on your account. If you do have an Xbox console then make sure that remote playing is enabled and that the console is visible in the official Xbox App."
+      },
+
+      "titleInfo": {
+        "pageTitle": "Viewing title information:",
+        "breadcrumb1": "xCloud",
+        "breadcrumb2": "Library",
+        "by": "by",
+        "descriptionTitle": "Description",
+        "capabilitiesTitle": "Capabilities",
+        "startStreamBtn": "Start Stream"
+      },
+
+      "page404": {
+        "pageTitle": "Error",
+        "message": "Oopsie 404.. Action not found"
+      },
+
+      "page500": {
+        "pageTitle": "Error",
+        "message": "Oopsie 500.. Application has an error"
+      }
+    },
+
+    "friends": {
+      "allFriendsOffline": "All your friends are offline"
+    },
+
+    "streamWindow": {
+      "pageTitle": "Streaming",
+      "endStreamConfirmMessage": "Are you sure you want to end your stream?",
+      "estimatedWaitingTimeMessage": "Estimated waiting time in queue:",
+      "timeHours": "hour(s)",
+      "timeMinutes": "minute(s)",
+      "timeSeconds": "second(s)",
+      "loadingStreamTitle": "Loading...",
+      "gettingStreamReadyMessage": "We are getting your stream ready...",
+      "endStreamBtn": "End Stream",
+      "disconnectBtn": "Disconnect",
+      "menuBtn": "Menu",
+      "menuTitle": "Open Xbox menu",
+      "micMuted": "Muted",
+      "micActive": "Active",
+      "enableMic": "Enable mic",
+      "disableMic": "Disable mic",
+      "debugTitle": "Debug",
+      "itsTakingALittleLonger": "It's taking a little longer.. Your stream may start soon.",
+      "startingConnection": "Starting connection...",
+      "connectingToConsole": "Connecting to console...",
+      "clientHasBeenDisconnected": "The client has been disconnected."
+    },
+
+    "updater": {
+      "unableToCheckForUpdates": "Unable to check for updates at this moment. Try again.",
+      "alreadyOnLatestVersion": "You are already running the latest version. Current version:",
+      "newestVersion": "Newest version:",
+      "newReleaseAvailable": "New release available",
+      "installedVersion": "Installed version:",
+      "latestVersion": "Latest version:",
+      "downloadBtn": "Download",
+      "laterBtn": "Later",
+      "updateChecker": "Update Checker",
+      "closeBtn": "Close"
+    },
+
+    "errors": {
+      "failedToRetrieveUserProfile": "Error: Failed to retrieve user profile:",
+      "repositoryNotFound": "Repository URL not found in package.json file.",
+      "failedToRetrieveStreamingTokens": "Error: Failed to retrieve streaming tokens:",
+      "errorAuthentificationUser": "Error authenticating user. Error details:",
+      "errorGettingRedirectURI": "Error getting redirect URI. Error details:",
+      "authentificationCallbackIsNotDefined": "Authentication Callback is not defined. Error details:",
+      "sisuTokenIsMissing": "Sisu token is missing. Please authenticate first",
+      "failedToRetrieveWebTokens": "Error: Failed to retrieve web tokens:",
+      "chatSDPExchangeError": "ChatSDP Exchange error:",
+      "ICEExchangeError": "ICE Exchange error:",
+      "SDPExchangeError": "SDP Exchange error:",
+      "failedToStartStream": "Failed to start new stream. Error details:",
+      "unableToStartStreamSession": "Unable to start stream session on console. The console is not connected to the Xbox servers. This occasionally happens when there is an update or when the user is not signed in to the console. Please hard reboot your console and try again.",
+      "streamErrorResult": "Stream error result:",
+      "details": "Details:",
+      "failedToGetPlayerState": "Failed to get player state. Error details:"
+    }
+  }
+}

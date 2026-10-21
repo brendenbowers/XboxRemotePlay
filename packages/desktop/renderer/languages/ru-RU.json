@@ -1,0 +1,286 @@
+{
+  "translation": {
+    "languageName": "Русский",
+    "authorOfLocalization": "Русская локализация: Евгений Чефранов",
+
+    "header": {
+      "myConsoles": "Мои консоли",
+      "viewConsoles": "Просмотр консолей",
+      "xCloudLibrary": "Библиотека xCloud",
+      "browseXCloudLibrary": "Просмотреть библиотеку xCloud",
+      "settings": "Настройки",
+      "changeSettings": "Изменить настройки приложения",
+      "viewProfile": "Просмотреть профиль",
+      "quitQuestion": "Вы уверены, что хотите выйти?",
+      "home": "Главная"
+    },
+
+    "auth": {
+      "logoutQuestion": "Вы уверены, что хотите выйти из аккаунта?",
+      "clearDataBtn": "Очистить данные",
+      "clearDataQuestion": "Это удалит все данные приложения, что иногда помогает, если вы застряли в цикле входа. Продолжить?",
+      "gamerscore": "Игровой счет",
+      "loggingIn": "Вход...",
+      "loginBtn": "Войти",
+      "logoutBtn": "Выйти",
+      "loginWithXbox": "Войти через Xbox",
+      "pleaseAuthenticate": "Пожалуйста, авторизуйтесь ниже для доступа к xCloud и xHome Streaming",
+      "windowTitle": "Авторизация"
+    },
+
+    "settings": {
+      "sidebar": {
+        "about": "О программе",
+        "streaming": "Трансляция",
+        "input": "Ввод",
+        "videoAudio": "Видео и аудио",
+        "webUI": "Web UI",
+        "debug": "Отладка"
+      },
+
+      "about": {
+        "logoutQuestion": "Вы уверены, что хотите выйти из аккаунта?",
+        "title": "Настройки",
+        "gamerscore": "Игровой счет",
+        "selectorSelectLanguage": "Выберите язык",
+        "logout": "Выйти",
+        "version": "Версия",
+        "website": "Веб-сайт",
+        "websiteLinkTitle": "Открыть ссылку во внешнем браузере"
+      },
+
+      "input": {
+        "pageTitle": "Настройки: Ввод",
+        "dPadUp": "Крестовина вверх",
+        "dPadDown": "Крестовина вниз",
+        "dPadLeft": "Крестовина влево",
+        "dPadRight": "Крестовина вправо",
+        "leftShoulder": "Левый бампер",
+        "rightShoulder": "Правый бампер",
+        "leftTrigger": "Левый триггер",
+        "rightTrigger": "Правый триггер",
+        "leftThumb": "Левый стик",
+        "rightThumb": "Правый стик",
+        "view": "Просмотр",
+        "menu": "Меню",
+        "nexus": "Nexus",
+        "none": "Нет",
+        "enabledLabel": "Включено",
+        "disabledLabel": "Отключено",
+        "axesLabel": "оси",
+        "buttonsLabel": "кнопок",
+        "rumbleLabel": "вибрация",
+        "notSupportedLabel": "Не поддерживается",
+        "title": "Ввод",
+        "enableVibration": "Включить вибрацию",
+        "enableTouch": "Включить сенсорный ввод",
+        "enableMouseKeyboard": "Включить мышь и клавиатуру",
+        "legacyWarning": "Использование драйвера мыши и клавиатуры вместе с назначениями клавиш геймпада вызовет конфликты",
+        "enableLegacy": "Включить клавиатуру как геймпад",
+        "enableLegacyDescription": "(Отключение этой функции отключит сопоставление клавиатуры с геймпадом и позволит управлять только с геймпада.)",
+        "controllerDetectedTitle": "Обнаружены контроллеры",
+        "controllerDetectedDescription": "Если у вас подключен контроллер, но он не отображается, попробуйте нажать кнопку на контроллере для обнаружения.",
+        "noControllerDetected": "Контроллер не обнаружен",
+        "keyboardMappingsTitle": "Назначения клавиш"
+      },
+
+      "streaming": {
+        "pageTitle": "Настройки: Трансляция",
+        "title": "Настройки трансляции",
+        "description": "xHome и xCloud по умолчанию не поддерживают более 20 Мбит/с. Эта настройка не отменяет это ограничение.",
+        "xCloudStreamingBitrateLabel": "Битрейт трансляции xCloud",
+        "xHomeStreamingBitrateLabel": "Битрейт трансляции xHome",
+        "unlimitedLabel": "Без ограничений / Выкл.",
+        "mbpsLabel": "Мбит/с",
+        "setH264ProfileLabel": "Установить профиль H.264",
+        "setH264ProfileValueAuto": "Авто-выбор",
+        "setH264ProfileValueHigh": "Высокий",
+        "setH264ProfileValueMedium": "Средний",
+        "setH264ProfileValueLow": "Низкий",
+        "forceRegionTitle": "Принудительный регион",
+        "setRegionLabel": "Установить регион:",
+        "setRegionValueDisabled": "Отключено",
+        "setRegionValueAustralia": "Австралия",
+        "setRegionValueBrazil": "Бразилия",
+        "setRegionValueEurope": "Европа",
+        "setRegionValueJapan": "Япония",
+        "setRegionValueKorea": "Корея",
+        "setRegionValueUS": "США",
+        "preferredGameLanguageLabel": "Предпочтительный язык игры:",
+        "preferredGameLanguageValueArabic": "Арабский (Саудовская Аравия)",
+        "preferredGameLanguageValueCzech": "Чешский",
+        "preferredGameLanguageValueDanish": "Датский",
+        "preferredGameLanguageValueGerman": "Немецкий",
+        "preferredGameLanguageValueGreek": "Греческий",
+        "preferredGameLanguageValueEnglishUK": "Английский (Великобритания)",
+        "preferredGameLanguageValueEnglishUS": "Английский (США)",
+        "preferredGameLanguageValueSpanish": "Испанский (Испания)",
+        "preferredGameLanguageValueSpanishMX": "Испанский (Мексика)",
+        "preferredGameLanguageValueFinnish": "Финский",
+        "preferredGameLanguageValueFrench": "Французский",
+        "preferredGameLanguageValueHebrew": "Иврит",
+        "preferredGameLanguageValueHungarian": "Венгерский",
+        "preferredGameLanguageValueItalian": "Итальянский",
+        "preferredGameLanguageValueJapanese": "Японский",
+        "preferredGameLanguageValueKorean": "Корейский",
+        "preferredGameLanguageValueNorwegian": "Норвежский",
+        "preferredGameLanguageValueDutch": "Голландский",
+        "preferredGameLanguageValuePolish": "Польский",
+        "preferredGameLanguageValuePortugueseBR": "Португальский (Бразилия)",
+        "preferredGameLanguageValuePortuguese": "Португальский (Португалия)",
+        "preferredGameLanguageValueRussian": "Русский",
+        "preferredGameLanguageValueSlovak": "Словацкий",
+        "preferredGameLanguageValueSwedish": "Шведский",
+        "preferredGameLanguageValueTurkish": "Турецкий",
+        "preferredGameLanguageValueChineseCN": "Китайский (упрощенный)",
+        "preferredGameLanguageValueChineseTW": "Китайский (традиционный)"
+      },
+
+      "videoAudio": {
+        "pageTitle": "Настройки: Видео и Аудио",
+        "videoTitle": "Видео",
+        "disableVideoLabel": "Отключить видео",
+        "disabledLabel": "Отключено",
+        "enabledLabel": "Включено",
+        "aspectSizeLabel": "Размер видео",
+        "aspectSizeValueDefault": "По умолчанию",
+        "aspectSizeValueStretch": "Растянуть",
+        "aspectSizeValueZoom": "Зум",
+        "forceLowResLabel": "Принудительно низкое разрешение видео",
+        "forceLowResDescription": "(Эта опция полезна на Steam Deck и позволяет приложению работать в низком разрешении, чтобы можно было включить FSR.)",
+        "audioTitle": "Аудио",
+        "disableAudioLabel": "Отключить аудио"
+      },
+
+      "webUI": {
+        "pageTitle": "Настройки: Web UI",
+        "title": "WebUI",
+        "enableWebUILabel": "Включить WebUI",
+        "stopWebUIBtn": "Остановить Web UI",
+        "startWebUIBtn": "Запустить Web UI",
+        "openWebUIBtn": "Открыть Web UI",
+        "autostartLabel": "Запускать WebUI при старте приложения",
+        "autostartEnabled": "Включено",
+        "autostartDisabled": "Отключено",
+        "portLabel": "Порт",
+        "portPlaceholder": "например: 9003"
+      },
+
+      "debug": {
+        "pageTitle": "Настройки: Отладка"
+      }
+    },
+
+    "page": {
+      "xCloud": {
+        "pageTitle": "Библиотека xCloud",
+        "breadcrumb": "xCloud",
+        "recentGames": "Недавние игры",
+        "recentlyAdded": "Недавно добавленные",
+        "viewLibraryBtn": "Просмотреть библиотеку"
+      },
+
+      "xCloudLibrary": {
+        "pageTitle": "Библиотека xCloud",
+        "breadcrumb1": "xCloud",
+        "breadcrumb2": "Библиотека",
+        "title": "Библиотека",
+        "searchPlaceholder": "Поиск",
+        "previousPageBtn": "Предыдущая страница",
+        "nextPageBtn": "Следующая страница",
+        "viewGamePageIcon": "Просмотреть страницу игры"
+      },
+
+      "myConsoles": {
+        "pageTitle": "Мои консоли",
+        "poweredOn": "Включена",
+        "standby": "Режим ожидания",
+        "warningLabel": "Внимание",
+        "managementWarning": "Удалённое управление не включено",
+        "streamingWarning": "Потоковая передача с консоли не включена",
+        "startStreamBtn": "Начать трансляцию",
+        "noConsoles": "Консоли не найдены в вашем аккаунте. Если у вас есть консоль Xbox, убедитесь, что удалённая игра включена и консоль отображается в официальном приложении Xbox."
+      },
+
+      "titleInfo": {
+        "pageTitle": "Просмотр информации о тайтле:",
+        "breadcrumb1": "xCloud",
+        "breadcrumb2": "Библиотека",
+        "by": "От",
+        "descriptionTitle": "Описание",
+        "capabilitiesTitle": "Возможности",
+        "startStreamBtn": "Начать трансляцию"
+      },
+
+      "page404": {
+        "pageTitle": "Ошибка",
+        "message": "Упс.. 404.. Действие не найдено"
+      },
+
+      "page500": {
+        "pageTitle": "Ошибка",
+        "message": "Упс.. 500.. В приложении произошла ошибка"
+      }
+    },
+
+    "friends": {
+      "allFriendsOffline": "Все ваши друзья оффлайн"
+    },
+
+    "streamWindow": {
+      "pageTitle": "Трансляция",
+      "endStreamConfirmMessage": "Вы уверены, что хотите завершить свою трансляцию?",
+      "estimatedWaitingTimeMessage": "Ожидаемое время ожидания в очереди:",
+      "timeHours": "час(ов)",
+      "timeMinutes": "минут(ы)",
+      "timeSeconds": "секунд(ы)",
+      "loadingStreamTitle": "Загрузка...",
+      "gettingStreamReadyMessage": "Мы подготавливаем вашу трансляцию...",
+      "endStreamBtn": "Завершить трансляцию",
+      "disconnectBtn": "Отключиться",
+      "menuBtn": "Меню",
+      "menuTitle": "Открыть меню Xbox",
+      "micMuted": "Выключен",
+      "micActive": "Включен",
+      "enableMic": "Включить микрофон",
+      "disableMic": "Выключить микрофон",
+      "debugTitle": "Отладка",
+      "itsTakingALittleLonger": "Это занимает немного больше времени.. Ваша трансляция может скоро начаться.",
+      "startingConnection": "Начало подключения...",
+      "connectingToConsole": "Подключение к консоли...",
+      "clientHasBeenDisconnected": "Клиент был отключен."
+    },
+
+    "updater": {
+      "unableToCheckForUpdates": "Не удалось проверить наличие обновлений в данный момент. Попробуйте еще раз.",
+      "alreadyOnLatestVersion": "Вы уже используете последнюю версию. Текущая версия:",
+      "newestVersion": "Последняя версия:",
+      "newReleaseAvailable": "Доступно новое обновление",
+      "installedVersion": "Установленная версия:",
+      "latestVersion": "Последняя версия:",
+      "downloadBtn": "Скачать",
+      "laterBtn": "Позже",
+      "updateChecker": "Проверка обновлений",
+      "closeBtn": "Закрыть"
+    },
+
+    "errors": {
+      "failedToRetrieveUserProfile": "Ошибка! Не удалось получить профиль пользователя:",
+      "repositoryNotFound": "Ошибка! URL репозитория не найден в файле package.json.",
+      "failedToRetrieveStreamingTokens": "Ошибка! Не удалось получить токены потоковой передачи:",
+      "errorAuthentificationUser": "Ошибка аутентификации пользователя. Подробности об ошибке:",
+      "errorGettingRedirectURI": "Ошибка получения URI перенаправления. Подробности об ошибке:",
+      "authentificationCallbackIsNotDefined": "Ошибка! Callback аутентификации не определён. Подробности об ошибке:",
+      "sisuTokenIsMissing": "Ошибка! Отсутствует токен Sisu. Пожалуйста, выполните аутентификацию сначала.",
+      "failedToRetrieveWebTokens": "Ошибка! Не удалось получить веб-токены:",
+      "chatSDPExchangeError": "Ошибка обмена ChatSDP:",
+      "ICEExchangeError": "Ошибка обмена ICE:",
+      "SDPExchangeError": "Ошибка обмена SDP:",
+      "failedToStartStream": "Не удалось запустить новую трансляцию. Подробности об ошибке:",
+      "unableToStartStreamSession": "Не удалось начать сессию трансляции на консоли. Консоль не подключена к серверам Xbox. Это иногда происходит, когда есть обновление или когда пользователь не вошел в систему на консоли. Пожалуйста, выполните жесткую перезагрузку консоли и попробуйте снова.",
+      "streamErrorResult": "Результат ошибки трансляции:",
+      "details": "Подробности:",
+      "failedToGetPlayerState": "Не удалось получить состояние игрока. Подробности об ошибке:"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+div#component_settings_sidebar_content h1 {
+    padding-bottom: 20px;
+}
+
+div#component_settings_sidebar_content h2 {
+    /* padding: 20px; */
+}
+
+div#component_settings_sidebar_content p {
+    /* padding: 20px; */
+    padding-bottom: 20px;
+}
+
+div#component_settings_sidebar_content p a {
+    color: #ffffff;
+}
+
+div#component_settings_sidebar_content ul.kv-list {
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    padding-top: 0px;
+    /* column-count: 2; */
+}
+
+div#component_settings_sidebar_content ul.kv-list li {
+    display: block;
+    box-sizing: border-box;
+    padding: 3px;
+    font-size: 14px;
+}
+
+div#component_settings_sidebar_content label {
+    font-weight: bold;
+    min-width: 250px;
+    display: inline-block;
+}
+
+div#component_settings_sidebar_content select {
+    appearance: base-select;
+    color-scheme: dark;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 100%;
+    border: 0px;
+    outline: none;
+    color: #ffffff;
+    margin-right: 10px;
+    min-width: 200px;
+}
+
+div#component_settings_sidebar_content select::picker(select) {
+    appearance: base-select;
+    background: #202124;
+    color: white;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+div#component_settings_sidebar_content select option {
+    padding: 10px;
+}
+
+div#component_settings_sidebar_content select:focus-visible {
+    outline: 2px solid white;
+}
+
+div#component_settings_sidebar_content input[type="range"] {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    /* padding: 10px; */
+    display: inline-block;
+    border: 0px;
+    outline: none;
+    color: #ffffff;
+    margin-right: 10px;
+    min-width: 200px;
+}
+
+div#component_settings_sidebar_content input[type='checkbox'] {
+    position: relative;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    top: 3px;
+}
